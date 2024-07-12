@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import requests
 import pandas as pd
 
-# Define the API endpoint and your access key
+# API endpoint and access key
 api_url = "https://api.freecurrencyapi.com/v1/historical"
 api_key = os.getenv("API_key")
 
